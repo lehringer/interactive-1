@@ -1,0 +1,63 @@
+*{box-sizing: content-box;}
+    
+*{ background-color: orange; }
+    
+    .container{
+        width: 500px;
+        margin: 0 auto;
+         }
+    #header{
+        position: relative;
+        top:50px;
+        text-align: center;
+        font-family: impact;}
+    
+    #bodycontent{
+      position: relative;
+      top: 100px;
+    }        
+    .p1 {
+        position: relative; 
+        max-width: 0 auto;
+        padding: 10px;
+        background-color: white;
+        text-align: center;
+        }
+    
+    .p2 {
+        position: relative;
+         
+        padding: 10px;
+        max-width: 0 auto;
+        background-color: white;
+        text-align: center;
+        }
+
+    .p3{
+        position: relative;
+         
+        padding: 20px;
+        max-width: 0 auto;
+        background-color: white;
+        text-align: center;
+       }
+
+    .p4{
+        position: relative;
+         
+        padding: 10px;
+        max-width: 0 auto;
+        background-color: white;
+        text-align: center;
+       }
+
+    .p5{
+        position: relative;
+         
+        padding: 10px;
+        max-width:0 auto;
+        background-color: white;
+        text-align: center;
+        }
+    }
+    }
