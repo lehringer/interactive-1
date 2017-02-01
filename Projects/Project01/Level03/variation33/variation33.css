@@ -1,15 +1,32 @@
-#main{
-	background-color: green;
-	opacity: 30%;
+*{
+	background-color: black;
+}
+.container{
+	display: block;
+	position: fixed;
+	top: 598px;
+	width: 400px;
+	margin-left: 50px;
+	background-color: blue;
 	}
-*p{
-	display: inline-block;
-	background-color: red;
-	color: blue;
-	width: 300px;
-	height: 150px;
-	
+.rectangles{
+	width: 400px;
+	height: 100px;
+	overflow: scroll;
+	}
+#p1{
+	color: white;
+	font-family: "Futura";
+	}
+#h1{
+	color: white;
+	position: fixed;
+	right: 50px;
+	top: 100px;
+	}
+#author{
+	color: white;
+	position: fixed;
+	right: 50px;
+	top: 595px;
 }
-
-}
-
