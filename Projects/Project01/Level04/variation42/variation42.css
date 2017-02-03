@@ -1,0 +1,49 @@
+*{	box-sizing: box;
+	margin: 10px auto;
+}
+
+*main{
+	display: inline-block;
+	position: absolute;
+	font-family: Helvetica;
+	}
+#p4{
+	display: inline-block;
+	position: absolute;
+	width: 300px;
+	font-size: 18pt;
+	color: black;
+	opacity: .2;
+	}
+#p2{
+	display: inline-block;
+	position: static;
+	width: 200px;
+	font-size: 28pt;
+	color: blue;
+	opacity: .7;
+	}
+#p3{
+	display: inline-block;
+	position: static;
+	width: 400px;
+	font-size: 24pt;
+	color: black;
+	opacity: .5;
+	z-index: 5;
+	}
+#p5{
+	display: fixed;
+	position: absolute;
+	width: 100px;
+	margin: 200px auto;
+	font-size: 10pt;
+	color: black;
+	opacity: .5;
+	}
+#p1{
+	display: inline-block;
+	width: 400px;
+	font-size: 35pt;
+	color: black;
+	}
