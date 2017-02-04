@@ -4,23 +4,62 @@
 
 body{
 
-	font-family: sans-serif;
+	font-family: "futura";
 	line-height: 1.5em;
-	background:white;
 	font-size: 1em;
-}
-
-h1{
-	margin: 20px;
-	font-size: 3em;
-	font-style: bold;
-}
-
-.main{
-	width: 80%;
+	background-color: #f4426b;
+	}
+.container{
+	width: 100%;
 	margin: 100px auto;
-	padding: 50px;
+	padding: 25px;
 }
+.levelone {
+	background-color: white;
+	display: inline-block;
+	width: 18%;
+	padding: 5px;
+	border: 10px;
+	text-align: center;
+	}
+.leveltwo{
+	background-color: white;
+	display: inline-block;
+	width: 18%;
+	padding: 5px;
+	border: 10px;
+	text-align: center;
+	}
+.levelthree{
+	background-color: white;
+	display: inline-block;
+	width: 18%;
+	padding: 5px;
+	border: 10px;
+	text-align: center;
+	}
+.levelfour{
+	background-color: white;
+	display: inline-block;
+	width: 18%;
+	padding: 5px;
+	border: 10px;
+	text-align: center;
+	}
+.levelfive{
+	background-color: white;
+	display: inline-block;
+	width: 18%;
+	padding: 5px;
+	border: 10px;
+	text-align: center;
+	}
+
+h2 h1{
+	color: white;
+	}
+
+
 
 
 ul{
@@ -32,7 +71,7 @@ ul li{
 }
 
 a:link{
-	color: #0000ff;
+	color: #f4426b;
 	text-decoration: none;
 }
 
