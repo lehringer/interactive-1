@@ -14,13 +14,13 @@
 		transition: all 2s ease;
 	}
 .title:hover{
-	transition-timing-function: 2s
+	transition-timing-function: 2s;
 	background: transparent;
 }
 #h1{
 	position: relative;
 	text-align: left;
-	left:50%;
+	left:70%;
 	display: inline-block;
 	background:transparent;
 }
@@ -28,7 +28,7 @@
 	display:inline-block;
 	position: relative; 
 	text-align: right;
-	left:30%;
+	left:20%;
 	background-color: transparent;
 }
 
@@ -42,6 +42,7 @@
 #poem{
 	position: absolute;
 	color: white;
+	top: 200px;
 	text-align: center;
 
 	}

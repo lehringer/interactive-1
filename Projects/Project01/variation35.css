@@ -10,7 +10,7 @@
 	}
 .container1{
 	position: absolute;
-	right: 50%;
+	left:50%;
 	top: 50%;
 	text-align: right;
 	font-family: "Hevetica";
@@ -21,13 +21,25 @@
 
 .container2{
 	position: absolute;
-	right: 25%;
-	bottom: 0px;
+	right: 30%;
+	top: 800px;
+	padding: 800px;
 	text-align: left;
 	font-family: "Hevetica";
 	font-size:30px;
 	width: 200px;
 	}
-a:hover{
 
+.container3{
+	position: relative;
+	left: 40%%;
+	top: 1200px;
+	text-align: left;
+	font-family: "Hevetica";
+	font-size:10px;
+	line-height: 30pt;
+	width: 20px;
+	}
+span{
+	line-height: 50px;
 }
