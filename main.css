@@ -1,37 +1,49 @@
 *{
 	box-sizing: border-box;
 	font-family: "Futura";
-	font-size:12pt;
-	background-color: red;
+	background: red;
 }
 .main{
 	position: relative;
-	margin: auto;
 	background-color: transparent;
 }
 .exercises {
-	position: absolute;
-	left:50%
-	top: 30%;
+	display: inline-block;
+	min-width: 600px;
 	background-color: red;
+	margin: 10px;
+	padding: 10px;
 	color: white;
-	font-size: 2em;
-}
+	font-size: 30pt;
+	}
 .projects
 
-{	position: absolute;
+{	display: block;
 	background-color: white;
-	top: 200px;
-	margin:auto;
-	min-height: 100px;
+	margin:10px;
+	width: 500px;
+	height: 100px;
 	color: red;
-	font-size: 2em;
+	font-size: 3em;
 }
 
 a{
-	color:white;
-	text-decoration: none;
-}
+	color: white;
+	text-decoration: none;}
 h1{
-	font-size:4em;
+	position: fixed;
+	font-size: 10em;
+	bottom: 38%;
+	right: 0px;
+	text-align: left;
+	line-height: 100px;
+	transform: rotate(-90deg);
+	background-color: transparent;
+}
+span{
+	color: white;
+	opacity: .5;
+	letter-spacing: 45px;
+	background-color: transparent;
+
 }
