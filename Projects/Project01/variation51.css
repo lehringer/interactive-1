@@ -1,30 +1,48 @@
-*{
-	background-color: black;
+*{box-sizing: border-box;
+
 }
-title{
+.title{
 	position: relative;
-	width: 300px;
-	height:1000px;
-	padding-top: 150px;
+	margin: auto;
+	min-height:800px;
+	padding-top: 200px;
 	margin: auto;
 	background-color: black;
-	text-align: center;
 	color: white;
 	font-family: "Gotham";
-	font-size: 12pt;
-	
+	font-size: 50pt;
+		transition: all 2s ease;
 	}
+.title:hover{
+	transition-timing-function: 2s
+	background: transparent;
+}
+#h1{
+	position: relative;
+	text-align: left;
+	left:50%;
+	display: inline-block;
+	background:transparent;
+}
+#h6{
+	display:inline-block;
+	position: relative; 
+	text-align: right;
+	left:30%;
+	background-color: transparent;
+}
 
 .container{
+	position: absolute;
 	width:300px;
-	top: 100px;
-	position: relative;
-	margin: 0 auto;
+	top:0%;
+	left: 50%;
 	}
 
-.poem{
+#poem{
+	position: absolute;
 	color: white;
-	width: 100px;
 	text-align: center;
-	
+
 	}
+

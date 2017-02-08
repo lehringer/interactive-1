@@ -1,9 +1,41 @@
 *{
-
+	box-sizing: border-box;
+	opacity: .9;
 }
 .container{
-	width:500px;
-	border-top:0px;
-	margin: 0 auto;
-	
+	display: inline-block;
+	font-family: "Futura";
+	}
+#h1{
+	transform: rotate(180deg);
+	position: absolute;
+	}
+#h7 {
+	transform: rotate(180deg);
+	position: relative;
+	text-shadow: 3px;
+	}
+.container1{
+	display: inline-block;
+	font-family: "Futura";
+	transform: rotate(90deg);
+	}
+.container2{
+	position: relative;
+
+	font-family: "Futura";
+	transform: rotate(90deg);
+	}
+.container3{
+	position: relative;
+	font-family: "Futura";
+	transform: rotate(270deg);
+	}
+.poem{
+	position: fixed;
+	width: 300px;
+	line-height: 24pt;
+	right: 50px;
+	top: 20%;
 }
+

@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+	font-family: "Futura";
+	font-size:12pt;
+	background-color: red;
+}
+.main{
+	position: relative;
+	margin: auto;
+	background-color: transparent;
+}
+.exercises {
+	position: absolute;
+	left:50%
+	top: 30%;
+	background-color: red;
+	color: white;
+	font-size: 2em;
+}
+.projects
+
+{	position: absolute;
+	background-color: white;
+	top: 200px;
+	margin:auto;
+	min-height: 100px;
+	color: red;
+	font-size: 2em;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+h1{
+	font-size:4em;
+}

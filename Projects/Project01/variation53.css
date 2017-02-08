@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	background:red;
+	font-family: "Futura";
+}
+.main{
+	position: fixed;
+	width:600px;
+	top: 50%;
+	left: 50%;
+}
+.talking-head{
+	display: inline-block;
+	position: fixed;
+
+	font-weight: 700;
+	font-size: 3em;
+	width: 25%;
+	padding: 20px;
+}
+.square{
+	display: block;
+	position: absolute;
+	transition:width 2s ease;
+	width: 100px;
+	height: 300px;
+
+	float: right;
+	margin: 15px;
+}
+
+.square:hover{
+	width: 100%;
+}
+.square1{
+	display: block;
+	position: absolute;
+	transition:width 2s ease;
+	width: 100px;
+	height: 300px;
+
+	float: left;
+	margin: 15px;
+}
+
+.square1:hover{
+	width: 100%;
+}
+.square2{
+	display: block;
+	position: absolute;
+	transition:width 2s ease;
+	width: 100px;
+	height: 300px;
+
+	float: left;
+	margin: 15px;
+}
+
+.square2:hover{
+	width: 100%;
+}
+.square3{
+	display: block;
+	position: absolute;
+	transition:width 2s ease;
+	width: 100px;
+	height: 300px;
+
+	float: left;
+	margin: 15px;
+}
+
+.square3:hover{
+	width: 100%;
+}
+.square4{
+	display: block;
+	position: absolute;
+	transition:width 2s ease;
+	width: 100px;
+	height: 300px;
+	background: black;
+	float: top;
+	margin: 15px;
+}
+
+.square4:hover{
+	height: 100%;
+}
+.square5{
+	display: block;
+	position: absolute;
+	transition:width 2s ease;
+	width: 100px;
+	height: 300px;
+
+	float: left;
+	margin: 15px;
+}
+
+.square5:hover{
+	width: 100%;
+}
+
+

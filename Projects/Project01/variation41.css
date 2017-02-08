@@ -1,84 +1,41 @@
 * {
-	box-sizing: content-box;
-	margin-top: 10px;
-	}
-	
-.main{
-	display: block;
-	position: static;
-	margin: 50px;	
-	z-index: -1;
-	}
-#square1{
-	display: inline-block;
-	position: static;
-	width: 100px;
-	height: 100px;
+	box-sizing: border-box;
 	background-color: black;
-	color: blue;
-	font-size: 32pt;
 	}
-#square2{
-	display: inline-block;
-	position: static;
-	width: 100px;
-	height: 175px;
-	background-color: black;
-	color: blue;
-	font-size: 32pt;
-	overflow: hidden;
-	}
-#square3{
-	display: inline-block;
-	width: 100px;
-	height: 50px;
-	background-color: blue;
-	color: black;
-	font-size: 32pt;
-	overflow: hidden;
-	}
-#square4{
-	display: inline-block;
-	position: absolute;
-	width: 300px;
-	height: 100px;
-	background-color: blue;
-	color: black;
-	font-size: 32pt;
-	}
-*poem{
-	z-index: 50;
+.transparent{
+	background-color: transparent;
 }
-#p1{
-	display: inline;
-	width: 200px;
-	font-family: helvetica;
-	font-size: 15pt;
-	}
-#p2{
-	display: inline;
-	width: 200px;
-	font-family: helvetica;
-	font-size: 12pt;
-	}
-#p3{
-	display: inline;
-	width: 200px;
-	font-family: helvetica;
-	font-size: 10pt;
-	}
-#p4{
-	display: inline;
-	width: 200px;
-	font-family: helvetica;
-	font-size: 8pt;
-	}
-#p5{
-	display: inline-block;
-	width: 200px;
-	margin: 50px;
-	font-family: helvetica;
-	font-size: 6pt;
+#container{
+	top:0 px;
+	margin: auto;
+	max-height: 800px;
+	font-family: "futura";
+	font-size: 14pt;
+	text-transform: uppercase;
+	background-color: transparent;
+	overflow: hidden;
 	}
 
+.title{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%, -50%);
+	color: white;
+	letter-spacing: 2px;
+	font-size: 3em;
+	text-align: center;
+	}
 
+.poem{
+	position: absolute;
+	color: white;
+	top: -17px;
+	max-height: 800px;
+	overflow: hidden;
+	opacity: .5;
+	letter-spacing: 4px;
+	line-height: 2em;
+	text-align: justify;
+	z-index: 1;
+		

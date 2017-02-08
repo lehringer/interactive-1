@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	background:black;
+	font-family: "futura";
+}
+
+.talking-head{
+	font-weight: 700;
+	font-size: 3em;
+	color: white;
+	}
+
+.main{	
+	width: 90%;
+	top: 0px;
+	margin: 100px auto;	
+	overflow: auto;
+	z-index: -1;
+}
+
+.circle{
+	transition: background 1s ease;
+	width: 100px;
+	height: 100px;
+	background: none;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+}
+
+.circle:hover{
+	background: #0066ff;
+}
+
+.circle1{
+	width: 150px;
+	height: 150px;
+	background color:blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	z-index: 1;
+}
+
+p{
+	font-size: 12pt;
+	text-align: center;
+	bottom: 10%;
+	
+}
