@@ -4,107 +4,72 @@
 
 body{
 
-	background:red;
+	background:white;
 	font-family: "Futura";
 }
 .main{
-	position: fixed;
-	width:600px;
-	top: 50%;
-	left: 50%;
+	position: relative;
+	width: 1400px;
+	height: 1000px;
+	left: 200px;
+	top: 1020px;
 }
 .talking-head{
-	display: inline-block;
 	position: fixed;
-
-	font-weight: 700;
-	font-size: 3em;
-	width: 25%;
+	font-weight:700;
+	font-size: 70px;
+	width: 250px;
 	padding: 20px;
 }
 .square{
-	display: block;
 	position: absolute;
-	transition:width 2s ease;
-	width: 100px;
-	height: 300px;
-
+	transition: width 4s ease;
+	width: 500px;
+	height: 1000px;
 	float: right;
-	margin: 15px;
+	right: 0px;
+	background-color: white;
+	top:-500px;
+	z-index: 1;
+	box-shadow: bottom 10px;
 }
 
 .square:hover{
-	width: 100%;
-}
-.square1{
-	display: block;
-	position: absolute;
-	transition:width 2s ease;
-	width: 100px;
-	height: 300px;
-
-	float: left;
-	margin: 15px;
-}
-
-.square1:hover{
-	width: 100%;
+	width:0%;
 }
 .square2{
-	display: block;
-	position: absolute;
-	transition:width 2s ease;
-	width: 100px;
-	height: 300px;
-
+	position: relative;
+	display: inline-block;
+	transition: width 4s ease;
+	width: 900px;
+	height: 1000px;
 	float: left;
-	margin: 15px;
+	left: 0px;
+	background-color: white;
+	top:-500px;
+	z-index: 4;
 }
 
 .square2:hover{
-	width: 100%;
-}
-.square3{
-	display: block;
+	width:0%;}
+
+.poem{
 	position: absolute;
-	transition:width 2s ease;
-	width: 100px;
-	height: 300px;
-
-	float: left;
-	margin: 15px;
+	display: inline-block;
+	top:-500px;
+	left: 50%;
+	width: 400px;
+	font-size: 26px;
 }
 
-.square3:hover{
-	width: 100%;
-}
-.square4{
-	display: block;
-	position: absolute;
-	transition:width 2s ease;
-	width: 100px;
-	height: 300px;
-	background: black;
-	float: top;
-	margin: 15px;
-}
+#fixed{
+	font-size: 100px;
+	position: fixed;
+	bottom: 0px;
+	right: 30px;
+	font-weight: bold;
 
-.square4:hover{
-	height: 100%;
 }
-.square5{
-	display: block;
-	position: absolute;
-	transition:width 2s ease;
-	width: 100px;
-	height: 300px;
-
-	float: left;
-	margin: 15px;
+p{
+	color: red;
 }
-
-.square5:hover{
-	width: 100%;
-}
-
-

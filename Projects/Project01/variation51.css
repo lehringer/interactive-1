@@ -20,7 +20,7 @@
 #h1{
 	position: relative;
 	text-align: left;
-	left:70%;
+	left:60%;
 	display: inline-block;
 	background:transparent;
 }
@@ -35,15 +35,10 @@
 .container{
 	position: absolute;
 	width:300px;
-	top:0%;
+	top:20%;
 	left: 50%;
-	}
-
-#poem{
-	position: absolute;
-	color: white;
-	top: 200px;
-	text-align: center;
+	font-size: 18pt;
 
 	}
+
 

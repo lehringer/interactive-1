@@ -1,6 +1,15 @@
 * {
 	box-sizing: border-box;
 }
+#main{
+	position: absolute;
+
+}
+.container{
+	position: relative;
+	top: 300px;
+	left: 300px;
+}
 
 body{
 
@@ -9,15 +18,13 @@ body{
 	font-size: 1em;
 	background-color: #f4426b;
 	}
-.container{
-	width: 100%;
-	margin: 100px auto;
-	padding: 25px;
-}
+
+
 .levelone {
 	background-color: white;
 	display: inline-block;
-	width: 90px;
+	position: relative;
+	width: 18%;
 	padding: 5px;
 	border: 10px;
 	text-align: center;
@@ -25,7 +32,7 @@ body{
 .leveltwo{
 	background-color: white;
 	display: inline-block;
-	width: 90px;
+	width: 18%;
 	padding: 5px;
 	border: 10px;
 	text-align: center;
@@ -33,7 +40,7 @@ body{
 .levelthree{
 	background-color: white;
 	display: inline-block;
-	width: 90px;
+	width: 18%;
 	padding: 5px;
 	border: 20px;
 	text-align: center;
@@ -41,7 +48,7 @@ body{
 .levelfour{
 	background-color: white;
 	display: inline-block;
-	width: 90px;
+	width: 18%;
 	padding: 5px;
 	border: 10px;
 	text-align: center;
@@ -49,17 +56,27 @@ body{
 .levelfive{
 	background-color: white;
 	display: inline-block;
-	width: 90px;
+	width: 18%;
 	padding: 5px;
 	border: 10px;
 	text-align: center;
 	}
 
-h2 h1{
-	color: white;
+h2{
+	text-align: center;
 	}
 
+h1{
+	transform: rotate(-90deg);
+	 position: fixed;
+		bottom: 50%;
+		right: 0px;
+		font-size: 48pt;
+		line-height: 60pt;
+		text-align: left;
+		color: white;
 
+}
 
 
 ul{
@@ -68,6 +85,8 @@ ul{
  
 ul li{
 	color: #dadada;
+	left: 50%;
+
 }
 
 a:link{
