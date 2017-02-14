@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	background:white;
+	font-family: "Futura";
+}
+
+.talking-head{
+	position: fixed;
+	font-weight:700;
+	font-size: 70px;
+	width: 250px;
+	padding: 20px;
+}
+
+.poem{
+
+	transform: rotate(180deg);
+}
+.poem:hover{
+
+	transform: perspective(180deg);
+	top: 50%;
+	color: black;
+}
+
+#fixed{
+	font-size: 100px;
+	position: fixed;
+	bottom: 0px;
+	right: 30px;
+	font-weight: bold;
+
+}
+p{
+	color: red;
+}
