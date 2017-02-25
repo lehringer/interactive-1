@@ -1,41 +1,31 @@
 * {
 	box-sizing: border-box;
 	background-color: black;
-	}
-.transparent{
-	background-color: transparent;
-}
-#container{
-	top:0 px;
-	margin: auto;
-	max-height: 800px;
 	font-family: "futura";
-	font-size: 14pt;
+	font-size: 1em;
+	color: white;
 	text-transform: uppercase;
-	background-color: transparent;
-	overflow: hidden;
 	}
 
 .title{
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform:translate(-50%, -50%);
-	color: white;
-	letter-spacing: 2px;
-	font-size: 3em;
+	position: relative;
+	font-size: 5em;
 	text-align: center;
+	margin-top: auto;
+	margin-left: auto;
+
 	}
 
 .poem{
-	position: absolute;
+	position: fixed;
 	color: white;
-	top: -17px;
-	max-height: 800px;
 	overflow: hidden;
+	top: -30px;
 	opacity: .5;
 	letter-spacing: 4px;
 	line-height: 2em;
+	font-size: 2em;
 	text-align: justify;
 	z-index: 1;
+	}
 		
