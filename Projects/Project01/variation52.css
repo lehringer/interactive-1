@@ -24,12 +24,13 @@ body{
 
 .circle{
 	transition: background 1s ease;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
+	padding: 30px;
 	background: none;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
 	float: left;
 	margin: 15px;
 }
@@ -39,19 +40,21 @@ body{
 }
 
 .circle1{
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	background color:blue;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius:100px;
+	border-radius: 100px;
 	float: left;
+	padding: 30px;
 	margin: 15px;
 	z-index: 1;
 }
-
+.circle1:hover{
+	background: red;
 p{
-	font-size: 12pt;
+	font-size: 3em;
 	text-align: center;
 	bottom: 10%;
 	
