@@ -5,11 +5,36 @@
 	background: red;
 	font-size: 1em;
 }
+.title{
+	position: absolute;
+	right: 0%;
+	padding: 5%;
+	top: 15%;
+	left: 0%;
+	height:50%;
+	max-width: 20%;
+	font-size: 3em; 
+	z-index: 1;
+	background-color: transparent;
+	}
+#border{
+	position: fixed;
+	background-color: transparent;
+	border: 2px solid white;
+	text-align: justify;
+	}
+span{
+	position: absolute;
+	opacity: .7;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+}
 .main{
 	position: absolute;
 	width: 50%;
 	margin-top: 10%;
-	margin-left: 10%;
+	margin-left: 40%;
 }
 .exercises {
 	position: relative;
@@ -26,7 +51,7 @@
 	background-color: white;
 	opacity: .2;
 	width: 130%;
-	left:-30%;
+	right:-20%;
 	margin-bottom: 20%;
 	}
 .projects{	
@@ -37,30 +62,3 @@
 a{
 	color: white;
 	text-decoration: none;}
-.title{
-	position: absolute;
-	right: 0%;
-	padding: 5%;
-	top: 15%;
-	left: 10%;
-	height:50%;
-	max-width: 20%;
-	font-size: 3em; 
-	z-index: 1;
-	background-color: transparent;
-	}
-h1{
-	top:40%;
-	left: -5%;
-	background-color: transparent;
-	border: 2px solid white;
-	text-align: justify;
-	}
-span{
-	position: absolute;
-	opacity: .7;
-	color: white;
-	background-color: transparent;
-	border: 2px solid white;
-	max-width: 60%;
-}
