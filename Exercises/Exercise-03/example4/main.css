@@ -1,0 +1,22 @@
+*{
+	background-color: red;
+	box-sizing: border-box;
+	font-family: "futura";
+}
+
+#box{
+	min-height: 30%;
+	position: relative;
+	display: inline-block;
+	top: 30%;
+	margin:5%;
+	background-color: white;
+	}
+li{
+	position: relative;
+	top:50%;
+	background-color: white;
+	color: red;
+	
+
+	}
