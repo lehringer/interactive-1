@@ -1,40 +1,212 @@
 * {
 	box-sizing: border-box;
-}
-
-body{
-
-	background:white;
-	font-family: "Futura";
+	background-color: transparent;
+	font-size: 1em;
 }
 
 .talking-head{
 	position: fixed;
-	font-weight:700;
-	font-size: 70px;
-	width: 250px;
-	padding: 20px;
-}
-
-.poem{
-
-	transform: rotate(180deg);
-}
-.poem:hover{
-
-	transform: perspective(180deg);
-	top: 50%;
-	color: black;
-}
-
-#fixed{
-	font-size: 100px;
-	position: fixed;
-	bottom: 0px;
-	right: 30px;
-	font-weight: bold;
-
-}
-p{
+	font-size: 2em;
+	font-family: "gotham";
+	top: 5%;
+	left: 5%;
+	}
+span{
 	color: red;
+	}
+
+.element1{
+	top: 10%;
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  position: relative;
+  display: inline-block;
+  animation: 
+    pulse 10s linear infinite alternate, 
+    nudge 10s linear infinite alternate;
+  border-radius: 50%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: black;
+    color: white;
+  }
+  50% {
+    background-color: white;
+    color: red;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(0, 300px);
+  }
+  
+  80% {
+    transform: translate(0, 300px);
+  }
+}
+
+.element2 {
+  height: 300px;
+  width: 300px;
+  top: 30%;
+  display: inline-block;
+  position: relative;
+  background-color: red;
+  animation: 
+    pulse 8s linear infinite alternate, 
+    nudge 5s linear infinite alternate;
+  border-radius: 50%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: black;
+    color: white;
+  }
+  50% {
+    background-color: white;
+    color: red;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(0, 300px);
+  }
+  
+  80% {
+    transform: translate(0, 300px);
+  }
+}
+
+.element3 {
+  height: 300px;
+  width: 300px;
+  top: 35%;
+  display: inline-block;
+  position: relative;
+  background-color: red;
+  animation: 
+    pulse 3s linear infinite alternate, 
+    nudge 8s linear infinite alternate;
+  border-radius: 50%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: black;
+    color: white;
+  }
+  50% {
+    background-color: white;
+    color: red;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(0, 300px);
+  }
+  
+  80% {
+    transform: translate(0, 300px);
+  }
+}
+
+.element4 {
+  height: 300px;
+  width: 300px;
+  top: 20%;
+  display: inline-block;
+  position: relative;
+  background-color: red;
+  animation: 
+    pulse 5s linear infinite alternate, 
+    nudge 6s linear infinite alternate;
+  border-radius: 50%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: black;
+    color: white;
+  }
+  50% {
+    background-color: white;
+    color: red;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(0, 300px);
+  }
+  
+  80% {
+    transform: translate(0, 300px);
+  }
+}
+
+.element5 {
+  height: 300px;
+  width: 300px;
+  top: 50%;
+  display: inline-block;
+  position: relative;
+  background-color: red;
+  animation: 
+    pulse 5s linear infinite alternate, 
+    nudge 12s linear infinite alternate;
+  border-radius: 50%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: black;
+    color: white;
+  }
+  50% {
+    background-color: white;
+    color: red;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(0, 300px);
+  }
+  
+  80% {
+    transform: translate(0, 300px);
+  }
+}
+
+p{
+	margin-left: auto;
+	margin-top: 30%;
+	text-align: center;
 }

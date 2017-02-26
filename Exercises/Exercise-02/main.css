@@ -26,7 +26,7 @@ body {
 		border-radius: 80px / 60px;
 	transform: rotate(-15deg);
 	overflow: hidden;
-	z-index: 1;
+	z-index: 7;
 	}
 				
 #pentagon {
@@ -67,7 +67,7 @@ body {
 		border-right: stroke 2px transparent;
 	background-color: pink;
 	opacity: .9;
-	z-index: 2;
+	z-index: 8;
 }
 
 		.pink-dark{
@@ -80,7 +80,7 @@ body {
 		    border: stroke 2px transparent;
 			background-color: red;
 			opacity: .2;
-			z-index: 4;
+			z-index: 10;
 			}
 		.pink-highlight{
 			position: absolute;
@@ -92,7 +92,7 @@ body {
 			border: stroke 2px transparent;
 			background-color: white;
 			opacity: .3;
-			z-index: 3;
+			z-index: 9;
 			transform: rotate(90deg);
 			}
 .blue-balloon{
@@ -106,13 +106,66 @@ body {
 	opacity: .9;
 	z-index: .3;
 }
-.leaf{
-	top: 20%;
+.leaf1{
+	position: absolute;
+	top: 27%;
+	right: 35%;
 	width: 0px;
 	min-height: 0px;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-bottom: 10px solid green;
+	border-bottom: 60px solid green;
+	z-index: 2;
 }
+		#leaf2{
+			position: absolute;
+			top: 17.5%;
+			right: 35%;
+			width: 0px;
+			min-height: 0px;
+			border-left: 10px solid transparent;
+			border-right: 20px solid transparent;
+			border-bottom: 120px solid green;
+			z-index: 3;
+			transform: rotate(-15deg);
+			
+			}
 
+		#leaf3{
+			position: absolute;
+			top: 28%;
+			right: 38%;
+			width: 0px;
+			min-height: 0px;
+			border-left: 10px solid transparent;
+			border-right: 20px solid transparent;
+			border-bottom: 80px solid green;
+			z-index: 4;
+			transform: rotate(-35deg);
+			}
+		#leaf4{
+			position: absolute;
+			top: 27%;
+			right: 30%;
+			width: 0px;
+			min-height: 0px;
+			border-left: 10px solid transparent;
+			border-right: 20px solid transparent;
+			border-bottom: 60px solid green;
+			z-index: 5;
+			transform: rotate(-3deg);
+			}
+		#leaf5{
+			position: absolute;
+			top: 20%;
+			right: 33%;
+			width: 0px;
+			min-height: 0px;
+			border-left: 10px solid transparent;
+			border-right: 20px solid transparent;
+			border-bottom: 100px solid green;
+			z-index: 6;
+			transform: rotate(-10deg);
+			}
+	
 

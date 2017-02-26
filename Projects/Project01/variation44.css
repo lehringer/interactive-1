@@ -4,6 +4,7 @@
 }
 .container{
 	display: inline-block;
+	position: relative;
 	font-family: "Futura";
 	}
 #h1{
