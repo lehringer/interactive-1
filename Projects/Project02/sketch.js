@@ -16,6 +16,7 @@ var tformR1 = document.querySelector("#topred");
 //var tformG2 = document.querySelector("#bottomgelb");
 //var tformM2 = document.querySelector("#bottommagenta");
 
+
 function setup(){
 	song1 = loadSound("gocarol.mp3");
 	song2 = loadSound("kerry1.mp3");
@@ -25,33 +26,35 @@ function setup(){
 	song6 = loadSound("worth.mp3");
 	song7 = loadSound("CHUNKY.mp3");
 	song8 = loadSound("change.mp3");
-	tformR1.addEventListener("mouseover", setInitialClass, false);
-	    tformR1.addEventListener("transitionend", loopTransition, false);
-	    tformR1.addEventListener("webkitTransitionEnd", loopTransition, false);
-	    tformR1.addEventListener("mozTransitionEnd", loopTransition, false);
-	    tformR1.addEventListener("msTransitionEnd", loopTransition, false);
-	    tformR1.addEventListener("oTransitionEnd", loopTransition, false);
-
+	window.onload = function(){
+		document.getElementsByClassName('stateOne')[0].classList.add('stateTwo')
+	}   
+	//tformR1.addEventListener("load", setInitialClass, false)
+	//tformR1.addEventListener("transitionend", loopTransition, false);
+	  //  tformR1.addEventListener("webkitTransitionEnd", loopTransition, false);
+	    //tformR1.addEventListener("mozTransitionEnd", loopTransition, false);
+	   // tformR1.addEventListener("msTransitionEnd", loopTransition, false);
+	    //tformR1.addEventListener("oTransitionEnd", loopTransition, false);
 	
 	createCanvas(windowWidth,windowHeight);
 	}
 
-function setInitialClass(e){
-	tformR1.className = "stateTwo";
-	tformC1.className = "stateTwo";
-	tformG1.className = "stateTwo";
-	tformM1.className = "stateTwo";
-}
+//function setInitialClass(){
+//	tformR1.className = "stateTwo";
+//	tformC1.className = "stateTwo";
+//	tformG1.className = "stateTwo";
+//	tformM1.className = "stateTwo";
+//}
 
-function loopTransition(e){
-	if(e.propertyName == "opacity"){
-		if(tformR1.className == "stateTwo"){
-			tformR1.className = "stateOne";
-		} else{
-			tformR1.className = "stateTwo";
-		}
-	}
-}
+//function loopTransition(){
+//	if(e.propertyName == "opacity"){
+//		if(tformR1.className == "stateTwo"){
+//			tformR1.className = "stateOne";
+//		} else{
+//			tformR1.className = "stateTwo";
+//		}
+//	}
+//}
 
 function mousePressed(){
 
