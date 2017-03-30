@@ -1,29 +1,35 @@
 *{ box-sizing: border-box;
 	}
-
-.topred{
+h1{
+	font-family: "Lust Script";
+	font-size: 6em;
+	text-align: center;
+}
+#topred{
 	width: 280px;
 	height:280px;
 	background-color: red;
 	margin-left:35%;
 	z-index: 4;
 	position: absolute;
-	opacity: .9;
 	padding: 10px;
-}
-		}
-@keyframes topred {
-	0%{ -webkit-clip-path: polygon(0% 75%, 100% 74%, 76% 35%, 51% 48%, 27% 38%);
+	-webkit-clip-path: polygon(0% 75%, 100% 74%, 76% 35%, 51% 48%, 27% 38%);
 		clip-path: polygon(0% 75%, 100% 74%, 76% 35%, 51% 48%, 27% 38%);
-		transition: .5s cubic-bezier(1, -1, 0, 2);
+	transition: transform .5s ease-in-out, cubic-bezier(1, -1, 0, 2);
+    }
 
-	}
-	100%{ -webkit-clip-path: polygon(0% 75%, 100% 74%, 81% 46%, 53% 62%, 21% 53%);
+.stateOne{ 
+	opacity: .9;
+    -webkit-clip-path: polygon(0% 75%, 100% 74%, 81% 46%, 53% 62%, 21% 53%);
     clip-path: polygon(0% 75%, 100% 74%, 81% 46%, 53% 62%, 21% 53%);
-
-	}
+    
 }
-
+.stateTwo{
+	opacity: .9;
+	-webkit-clip-path: polygon(0% 75%, 100% 74%, 81% 46%, 53% 62%, 21% 53%);
+    clip-path: polygon(0% 75%, 100% 74%, 81% 46%, 53% 62%, 21% 53%);
+}
+/*
 #bottomred{
 	width: 280px;
 	height:280px;
@@ -158,4 +164,4 @@ clip-path: polygon(0% 67%, 100% 76%, 78% 95%, 48% 100%, 15% 96%);
 					        -webkit-clip-path: polygon(0% 71%, 100% 69%, 87% 89%, 47% 96%, 15% 91%);
 								clip-path: polygon(0% 71%, 100% 69%, 87% 89%, 47% 96%, 15% 91%);
 						-webkit-transition-duration: 1s linear infinite;
-					}
+					}*/
