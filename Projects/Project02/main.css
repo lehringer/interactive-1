@@ -27,12 +27,12 @@ h1{
 	-webkit-clip-path: polygon(0% 75%, 100% 74%, 76% 35%, 51% 48%, 27% 38%);
 		clip-path: polygon(0% 75%, 100% 74%, 76% 35%, 51% 48%, 27% 38%);
 	transition: .5s, cubic-bezier(1, -1, 0, 2);
-	-webkit-animation-iteration-count: infinite;
+	/*-webkit-animation-iteration-count: infinite;*/
     }
 #topred:hover{
 	-webkit-clip-path: polygon(0% 75%, 100% 74%, 81% 46%, 53% 62%, 21% 53%);
 			clip-path: polygon(0% 75%, 100% 74%, 81% 46%, 53% 62%, 21% 53%);
-	-webkit-animation-iteration-count: infinite;
+	/*-webkit-animation-iteration-count: infinite;*/
 }
 #bottomred{
 	width: 280px;
