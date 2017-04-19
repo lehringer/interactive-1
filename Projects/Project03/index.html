@@ -1,36 +1,62 @@
-</!DOCTYPE html>
 <html>
 <head>
-	<title>Excersise 6</title>
-	<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
+<title>Project 3</title>
+  <meta charset="UTF-8">
+
 	<meta name="viewport-1" content="width-device-width, initial-scale">
 	<script src="https://ajax.googleleapis.com/ajax/libs/jquery/1..12.4/jquery.min.js"></script>
-	<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
+  -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <script>
+  	function(){
+  		var random = Math.floor(Math.random()*10);
+  		console.log(random);
+  	}
+  </script>
 </head>
 
-	<script>
-		$('coffeebeans').draggable
-	</script>
-
-<!--Scope is how you assign an id tag in jquery-->
-<!--Accept-->
-<!--tolerance(touch,fit,disabled,) is the degree of interaction IT IS CALLED A STRING-->
-first time visitor
-door
-	wrong door= null
-	correct door: knock twice
-turn on the light
-	wrong bulb= null
-	click on the correct bulb
-break in
-	brick wall
-	mouse is hammer
-
-second time visitor:
-complete
 
 <body>
+  
+  <div id="Cdoor">
+	
+	<div class="door">
+		<div class="doorbell"></div>
+	</div>
+	<div class="door">
+		<div class="doorbell"></div>
+	</div>
+	<div class="door" id="correct">
+		<p>Who's there?</p>
+		<div class="doorbell"></div>
+	</div>
+	<div class="door">
+		<div class="doorbell"></div>
+	</div>
+  
+  </div>
+
+
+	
+	<div class="pot1">
+		<div id="square"></div>
+		<div class="stem"></div>
+	</div>
+		
+	<div class="pot2">
+		<div id="teardrop"></div>
+		<div class="stem"></div>
+	</div>
+
+	<div class="pot3">
+		<div id="rectangle"></div>
+		<div class="stem"></div>
+	</div>
+
 
 </body>
 </html>
