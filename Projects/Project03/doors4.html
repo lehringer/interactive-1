@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Project 3</title>
+  <meta charset="UTF-8">
+
+	<meta name="viewport-1" content="width-device-width, initial-scale">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  
+  <script>
+  	$( document ).ready(function() {
+    	$(".doorbell").click(function() {
+		  		var doorIndex = Math.floor(Math.random()*6);
+
+		  		var links = [
+		  		"doors1.html",
+		  		"doors2.html",
+		  		"doors3.html",
+		  		"doors4.html",
+		  		"doors5.html",
+		  		"doors6.html"
+		  		]
+
+		  		$(".doorLink").attr("href", links[doorIndex]);
+});
+});
+  	jQuery(function($) {
+    $('#door').click(function() {
+        return false;
+    }).dblclick(function() {
+        window.location = this.href;
+        return false;
+    });
+});
+  </script>
+
+</head>
+
+
+<body>
+<p>Who's there?</p>
+<a id="door" href="https://lehringer.github.io/interactive-1/"></a>
+		
+		<a href="">
+			<div class="doorbell2"></div>
+		</a>
+		</div>
+</body>
+</html>

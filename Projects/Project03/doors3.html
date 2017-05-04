@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Project 3</title>
+  <meta charset="UTF-8">
+
+	<meta name="viewport-1" content="width-device-width, initial-scale">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  
+  <script>
+	$( document ).ready(function() {
+    	$(".doorbell").click(function() {
+		  		var doorIndex = Math.floor(Math.random()*6);
+
+		  		var links = [
+		  		"doors1.html",
+		  		"doors2.html",
+		  		"doors3.html",
+		  		"doors4.html",
+		  		"doors5.html",
+		  		"doors6.html"
+		  		]
+
+		  		$(".doorLink").attr("href", links[doorIndex]);
+});
+});
+
+  </script>
+
+</head>
+
+
+<body>
+  
+<div id="C1">	
+	<div class="door1">
+		<a class="doorLink" href="">
+			<div class="doorbell"></div>
+		</a>
+	</div>
+
+	<div class="door1">
+		<a href="index.html">
+			<div class="doorbell"></div>
+		</a>
+	</div>
+
+	<div class="door1">
+		<a href="index.html">
+			<div class="doorbell"></div>
+		</a>
+	</div>
+	<div class="door1">
+		<a href="index.html">
+			<div class="doorbell"></div>
+		</a>
+	</div>
+	<div class="door1">
+		<a href="index.html">
+			<div class="doorbell"></div>
+		</a>
+	</div>
+</div>
+
+<div id="C2">
+	<div class="door">
+		<a class="doorLink" href="">
+		<div class="doorbell"></div>
+		</a>
+	</div>
+
+	<div class="door">
+		<a class="doorLink" href="">
+		<div class="doorbell"></div>
+		</a>
+	</div>
+
+	<div class="door">
+		<a class="doorLink" href="">
+		<div class="doorbell"></div>
+		</a>
+	</div>
+	<div class="door">
+		<a class="doorLink" href="">
+		<div class="doorbell"></div>
+		</a>
+	</div>
+	<div class="door">
+		<a class="doorLink" href="">
+		<div class="doorbell"></div>
+		</a>
+	</div>
+</div>
+
+	<div class="pot1">
+		<div id="square"></div>
+		<div class="stem"></div>
+	</div>
+		
+	<div class="pot2">
+		<div id="teardrop"></div>
+		<div class="stem"></div>
+	</div>
+
+	<div class="pot3">
+		<div id="rectangle"></div>
+		<div class="stem"></div>
+	</div>
+
+
+</body>
+</html>

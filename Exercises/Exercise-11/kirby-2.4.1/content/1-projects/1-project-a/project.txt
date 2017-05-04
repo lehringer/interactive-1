@@ -1,0 +1,9 @@
+Title: Books!
+
+----
+
+Year: 2016
+
+----
+
+Text: This is an accordion style book. Its contents are images of typography taken by myself and classmates from the first day of class. Organized in primary colors, plus white, because we took terrible photos not knowing we would have to use them again.

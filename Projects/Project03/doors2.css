@@ -3,9 +3,10 @@
 	display: inline-block;
 	position: relative;
 	background-color: black;
-	height: 375px;
-	width: 175px;
+	height: 200px;
+	width: 100px;
 	margin-left: 10%;
+	margin-bottom: 5%;
 	z-index: 1;
 }
 .doorbell{
@@ -14,26 +15,17 @@
 	height: 10px;
 	width: 10px;
 	border-radius: 50%;
-	top: 165;
-	left: 200px;
-	background-color: blue;
+	top: -200px;
+	left: 110px;
+	background-color: red;
 }
-
 #Cdoor{
-	display: inline-block;
-	min-width: 1500px;
-	margin-left: -10px;
-	margin-top: 10%;
+	background-color: tan;
+	position: relative;
+	width: 1200px;
+	margin-left: 10%;
+	padding-top: 5%
 }
-#Cdoor2{
-	display: inline-block;
-	min-width: 1500px;
-	margin-left: -10px;
-	margin-top: 10%;
-}
-#Cdoor3{
-	display: inline-block;
-	min-width: 1500px;
-	margin-left: -10px;
-	margin-top: 10%;
+.tree{
+
 }
