@@ -1,23 +1,29 @@
-*{ box-sizing: border-box;
-	}
+*{box-sizing: border-box;}
 p{
-	position: relative;
-	margin-left: 10%;
-	font-size: 3.5em;
-	color: blue;
-	top:30%;
 	font-family: "futura";
-	z-index: 1;
+	color: blue;
+	font-size: 5em;
+	margin-top: auto;
 }
-#door{
+#correct{
+	position: relative;
 	background-color: black;
 	height: 375px;
 	width: 175px;
-	z-index: 3;
+	margin-left: auto;
+	margin-top: auto;
 }
 .doorbell2{
+	position: relative;
 	height: 10px;
 	width: 10px;
 	border-radius: 50%;
+	top: 320;
+	margin-left: auto;
 	background-color: blue;
+}
+a:hover{
+color: transparent;
+cursor: none;
+text-decoration: none;
 }
