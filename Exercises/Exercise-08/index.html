@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <title>
+    Exercise 5
+  </title>
+  <style>
+	  body {
+	  	margin: 0;
+	  }
+
+  	button {
+  		padding: 5px;
+  		margin: 5px;
+  		font-size: 1.0em;
+  		cursor: pointer;
+  	}
+
+  	.nav {
+  		position: fixed;
+  		top:100px;
+  		left:0;
+  		background-color: #FFF;
+  		padding: 15px;
+  	}
+
+    .box {
+    	height: 800px;
+    	color: #FFF;
+    	background-size: cover;
+    	background-position: center center;
+    	text-align: center;
+    	padding: 25px;
+    }
+
+   #horizontalContainer{
+      width: auto;
+      height: 800px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+    }
+    .s1 {background-image: url('assets/banana.jpg');}
+    .s2 {background-image: url('assets/banana1.jpg');}
+    .s3 {background-image: url('assets/banana2.jpg');}
+    .s4 {background-image: url('assets/banana5.jpg');}
+    .s5 {background-image: url('assets/banana3.jpg');}
+    .s6 {background-image: url('assets/banana3.jpgå');}
+    .s7 {background-image: url('assets/banana1.jpg');}
+  </style>
+
+  <script>
+
+  	$(document).ready(function(){
+
+  		$("#btn-s1").click(function() {
+			    $('html, body').animate({
+			        scrollTop: $(".s1").offset().top
+			    }, 1000);
+			});
+
+  		$("#btn-s2").click(function() {
+			    $('html, body').animate({
+			        scrollTop: $(".s2").offset().top
+			    }, 1000);
+			});
+
+  		$("#btn-s3").click(function() {
+			    $('html, body').animate({
+			        scrollTop: $(".s3").offset().top
+			    }, 1000);
+			});
+
+      /*horizontalimgs
+      $("#horizontalContainer").click(function() {
+          console.log('ok')
+          $(".scrollLeft").animate({
+              scrollLeft: $('.s3, .s4, .s5').offset().left
+          }, 1000);
+      });
+      
+      */
+
+  		$("#btn-s4").click(function() {
+			    $('html, body').animate({
+			        scrollTop: $(".s4").offset().top
+			    }, 1000);
+			});
+
+  		$("#btn-s5").click(function() {
+			    $('html, body').animate({
+			        scrollTop: $(".s5").offset().top
+			    }, 1000);
+			});
+
+			console.log( $(".s5").offset() );
+    });
+  </script>
+</head>
+
+<body>
+
+	<div class="nav">
+		<button id="btn-s1">s1</button><br />
+		<button id="btn-s2">s2</button><br />
+		<button id="btn-s3">s3</button><br />
+		<button id="btn-s4">s4</button><br />
+		<button id="btn-s5">s5</button><br />
+	</div>
+  
+  <div class="boxs1">
+  	Section 1
+  </div>
+  
+  <div class="boxs2">
+  	Section 2
+  </div>
+  
+  <div class="boxs3"> 
+  	Section 3
+  </div>
+  
+  <div class="boxs4" >
+  	Section 4
+  </div>
+  
+  <div class="boxs5" >
+  	Section 5
+  </div>
+
+</body>
+</html>
